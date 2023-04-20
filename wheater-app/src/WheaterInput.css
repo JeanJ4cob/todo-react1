@@ -1,0 +1,26 @@
+
+
+main{
+    width: 500px;
+    height: 700px;
+    margin-top: 50px;
+}
+
+main, 
+form,
+label,
+input,
+div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main form div{
+    margin-top: 20px;
+}
+
+main form div img{
+    width: 110px;
+    height: 100px;
+}
